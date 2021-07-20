@@ -20,11 +20,13 @@ class Produk {
 	String nama_produk;
 	String deskripsi_produk;
 	String harga_produk;
+	int jumlah_produk;
 	
 	void daftarMenu() {
 		System.out.println(nama_produk);
 		System.out.println(deskripsi_produk);
 		System.out.println(harga_produk);
+		System.out.println(jumlah_produk);
 	}
 
 	void tambahProduk() {
@@ -42,10 +44,12 @@ class Produk {
 
 
 
+
 class Main {
     public static void main(String[] args) {
     
 	Datapos toko1 = new Datapos();
+	Produk produktoko1 = new Produk();
 	toko1.id_toko = 001;
 	toko1.nama_toko = "Toko Sukses Jaya";
 	toko1.lokasi_toko = "Mampang Prapatan";
@@ -56,3 +60,7 @@ class Main {
     }
     
 }
+
+
+
+
