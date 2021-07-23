@@ -1,0 +1,3 @@
+class City extends Location {
+    
+}
