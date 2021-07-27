@@ -3,16 +3,16 @@ class Main {
        
        var budi = new GoRide("budi", "slipi", "palmerah", 5000);
        budi.pesananAnda();
+       budi.totalTagihan(2000);
+       budi.lokasiDriver();
        
+       
+       /*
        budi = new GoCar("budi", "slipi", "palmerah");
        budi.pesananAnda();
        
-       var alif = new GoCar("alif", "slipi", "palmerah");
-       alif.pesananAnda();
-       
-       
-       var coba = new GoRide("alif", "malang", "jakarta");
-       coba.pesananAnda();
+       budi = new GoFood("budi", "sudirman", "Kopi Janji Jiwa", "Es Kopi Susu", "kota tua");
+       budi.pesananAnda();*/
        
     }
 }
